@@ -7,6 +7,8 @@ Write this commands:
 
 Endpoint for test app:
 
+[GET]
+
 - localhost:3000/repos/:githubNickname
 
 Use postman for test my app!
