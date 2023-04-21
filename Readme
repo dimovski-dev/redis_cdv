@@ -19,10 +19,17 @@ Test case:
 
 Get: localhost:3000/repos/dimovski-dev
 
-Answer: data from GH-API, "Not cached" -> save to redis
+Answer: 
+
+1) return data from GH-API, 
+2) console.log("Not cached")
+3) saved to redis
 
 2)
 
 Get: localhost:3000/repos/dimovski-dev
 
-Answer: "Already cached", data from redis
+Answer: 
+1) console.log("Already cached")
+2) Ignored saving to redis, cuz alredy cached
+3) return data from redis
