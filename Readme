@@ -1,0 +1,12 @@
+Write this commands: 
+
+- npm install
+- redis-server
+- npm run dev
+
+
+Endpoint for test app:
+
+- localhost:3000/repos/:githubNickname
+
+Use postman for test my app!
