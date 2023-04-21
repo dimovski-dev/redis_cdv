@@ -19,7 +19,7 @@ Test case:
 
 Get: localhost:3000/repos/dimovski-dev
 
-Answer: data from GH-AP, "Not cached" -> save to redis
+Answer: data from GH-API, "Not cached" -> save to redis
 
 2)
 
