@@ -12,3 +12,17 @@ Endpoint for test app:
 - localhost:3000/repos/:githubNickname
 
 Use postman for test my app!
+
+Test case:
+
+1)
+
+Get: localhost:3000/repos/:dimovski-dev
+
+Answer: response from GH-AP, "Not cached" -> save to redis
+
+2)
+
+Get: localhost:3000/repos/:dimovski-dev
+
+Answer: "Already cached", data from redis
