@@ -1,3 +1,8 @@
+Using docker:
+
+- Run docker on your PC
+- docker-compose up
+
 Write this commands: 
 
 - npm install
